@@ -1,0 +1,7 @@
+Q--Write a program in python to read all lines of file “data.txt” using readline() only.
+f=open("data.txt", "r")
+str = " "
+while str:
+     str = f.readline()
+     print(str, end = "")
+f.close()
